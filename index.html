@@ -7,13 +7,14 @@
 </head>
 <body>
 	<h1>Welcome to our Index.html File</h1>
-	<p>This is where the content should go2 </p>
     <p id="demo">Hi.</p>
+    <p>Hello 你好 </p>
+    <img src="https://p1.ssl.qhimg.com/t010e9c1f234a6d9ef4.jpg" width="500" height="300">  
     <script>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         const code = urlParams.get("code");
-        document.getElementById("demo").innerHTML = "you give me the animal Idcode"+code;
+        document.getElementById("demo").innerHTML = "you give me the animal Idcode : "+code;
         // empty string
       </script>
 </body>
