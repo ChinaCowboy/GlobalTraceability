@@ -7,12 +7,12 @@
 </head>
 <body>
 	<h1>Welcome to our Index.html File</h1>
-	<p>This is where the content should go</p>
+	<p>This is where the content should go2 </p>
     <p id="demo">Hi.</p>
     <script>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
-        const code = urlParams.get('code');
+        const code = urlParams.get("code");
         document.getElementById("demo").innerHTML = "you give me the animal Idcode"+code;
         // empty string
       </script>
