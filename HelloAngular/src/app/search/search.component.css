@@ -1,0 +1,21 @@
+:host {
+      display: block;
+      padding: 0 20px;
+      }
+
+      /* The :host allows you to target the container of the component. It’s the only way to
+target the host element. You can’t reach the host element from inside the component
+with other selectors because it’s not part of the component’s own template. */
+table {
+      margin-top: 10px;
+      border-collapse: collapse;
+      }
+      th {
+      text-align: left;
+      border-bottom: 2px solid #ddd;
+      padding: 8px;
+      }
+      td {
+      border-top: 1px solid #ddd;
+      padding: 8px;
+      }
