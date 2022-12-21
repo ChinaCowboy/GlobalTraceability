@@ -1,2 +1,15 @@
-<p>portrait-component works!</p>
-<img src="https://p1.ssl.qhimg.com/t010e9c1f234a6d9ef4.jpg" width="500" height="300">  
+<mat-card class="example-card" >
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{person.name}}</mat-card-title>
+        <mat-card-subtitle>{{person.phone}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="{{person.image}}" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+            {{person.address.city}}, {{person.address.state}} {{person.address.zip}}
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>

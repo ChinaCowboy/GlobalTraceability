@@ -58,10 +58,13 @@ export class Person {
   name: string;
   phone: string;
   address: Address;
+  image :string;
   constructor(obj?: any) {
     this.id = obj?.id || null;
     this.name = obj?.name || null;
     this.phone = obj?.phone || null;
     this.address = obj?.address || null;
+    this.image = obj?.image || null;
+
   }
 }

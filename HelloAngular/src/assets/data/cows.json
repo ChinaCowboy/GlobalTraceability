@@ -8,7 +8,9 @@
                   "city": "Denver",
                   "state": "CO",
                   "zip": "80202"
-            }
+            },            
+            "image":"https://material.angular.io/assets/img/examples/shiba2.jpg"
+
       },
       {
             "id": 2,
@@ -19,7 +21,9 @@
                   "city": "Lakewood",
                   "state": "CO",
                   "zip": "80123"
-            }
+            },
+            "image":"https://p1.ssl.qhimg.com/t010e9c1f234a6d9ef4.jpg"
+
       },
       {
             "id": 3,
@@ -30,6 +34,7 @@
                   "city": "Breckenridge",
                   "state": "CO",
                   "zip": "80424"
-            }
+            },
+            "image":"https://material.angular.io/assets/img/examples/shiba2.jpg"
       }
 ]
