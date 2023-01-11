@@ -19,7 +19,7 @@ jobs:
     - name: Experiment
       run: |
         cd helloangular
-        pwd             # /home//helloanuglar
+        pwd
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
