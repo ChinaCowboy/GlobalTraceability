@@ -1,0 +1,40 @@
+[
+      {
+            "id": 1,
+            "name": "Nikola Jokić",
+            "phone": "(720) 555-1212",
+            "address": {
+                  "street": "2000 16th Street",
+                  "city": "Denver",
+                  "state": "CO",
+                  "zip": "80202"
+            },            
+            "image":"https://material.angular.io/assets/img/examples/shiba2.jpg"
+
+      },
+      {
+            "id": 2,
+            "name": "Jamal Murray",
+            "phone": "(303) 321-8765",
+            "address": {
+                  "street": "2654 Washington Street",
+                  "city": "Lakewood",
+                  "state": "CO",
+                  "zip": "80123"
+            },
+            "image":"https://p1.ssl.qhimg.com/t010e9c1f234a6d9ef4.jpg"
+
+      },
+      {
+            "id": 3,
+            "name": "Michael Porter Jr.",
+            "phone": "(303) 623-1337",
+            "address": {
+                  "street": "99 Fluid Way",
+                  "city": "Breckenridge",
+                  "state": "CO",
+                  "zip": "80424"
+            },
+            "image":"https://pic.baike.soso.com/ugc/baikepic2/0/20220318103449-465971687_png_558_522_234902.jpg/800"
+      }
+]
