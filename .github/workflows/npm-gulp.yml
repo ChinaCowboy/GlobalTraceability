@@ -29,5 +29,7 @@ jobs:
 
     - name: Build
       run: |
+        cd HelloAngular
+        pwd
         npm install
         gulp
